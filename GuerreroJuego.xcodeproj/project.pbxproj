@@ -1,0 +1,428 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9A3A46E61AA5CDF200A79669 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A3A46E51AA5CDF200A79669 /* AppDelegate.swift */; };
+		9A3A46E81AA5CDF300A79669 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A3A46E71AA5CDF300A79669 /* art.scnassets */; };
+		9A3A46EA1AA5CDF300A79669 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A3A46E91AA5CDF300A79669 /* GameViewController.swift */; };
+		9A3A46ED1AA5CDF300A79669 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A3A46EB1AA5CDF300A79669 /* Main.storyboard */; };
+		9A3A46EF1AA5CDF300A79669 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A3A46EE1AA5CDF300A79669 /* Images.xcassets */; };
+		9A3A46F21AA5CDF300A79669 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A3A46F01AA5CDF300A79669 /* LaunchScreen.xib */; };
+		9A3A46FE1AA5CDF300A79669 /* GuerreroJuegoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A3A46FD1AA5CDF300A79669 /* GuerreroJuegoTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9A3A46F81AA5CDF300A79669 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9A3A46D81AA5CDF200A79669 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9A3A46DF1AA5CDF200A79669;
+			remoteInfo = GuerreroJuego;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9A3A46E01AA5CDF200A79669 /* GuerreroJuego.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GuerreroJuego.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A3A46E41AA5CDF200A79669 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A3A46E51AA5CDF200A79669 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9A3A46E71AA5CDF300A79669 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		9A3A46E91AA5CDF300A79669 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		9A3A46EC1AA5CDF300A79669 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9A3A46EE1AA5CDF300A79669 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		9A3A46F11AA5CDF300A79669 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		9A3A46F71AA5CDF300A79669 /* GuerreroJuegoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GuerreroJuegoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A3A46FC1AA5CDF300A79669 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A3A46FD1AA5CDF300A79669 /* GuerreroJuegoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuerreroJuegoTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9A3A46DD1AA5CDF200A79669 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A3A46F41AA5CDF300A79669 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9A3A46D71AA5CDF200A79669 = {
+			isa = PBXGroup;
+			children = (
+				9A3A46E21AA5CDF200A79669 /* GuerreroJuego */,
+				9A3A46FA1AA5CDF300A79669 /* GuerreroJuegoTests */,
+				9A3A46E11AA5CDF200A79669 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9A3A46E11AA5CDF200A79669 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9A3A46E01AA5CDF200A79669 /* GuerreroJuego.app */,
+				9A3A46F71AA5CDF300A79669 /* GuerreroJuegoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9A3A46E21AA5CDF200A79669 /* GuerreroJuego */ = {
+			isa = PBXGroup;
+			children = (
+				9A3A46E51AA5CDF200A79669 /* AppDelegate.swift */,
+				9A3A46E71AA5CDF300A79669 /* art.scnassets */,
+				9A3A46E91AA5CDF300A79669 /* GameViewController.swift */,
+				9A3A46EB1AA5CDF300A79669 /* Main.storyboard */,
+				9A3A46EE1AA5CDF300A79669 /* Images.xcassets */,
+				9A3A46F01AA5CDF300A79669 /* LaunchScreen.xib */,
+				9A3A46E31AA5CDF200A79669 /* Supporting Files */,
+			);
+			path = GuerreroJuego;
+			sourceTree = "<group>";
+		};
+		9A3A46E31AA5CDF200A79669 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9A3A46E41AA5CDF200A79669 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9A3A46FA1AA5CDF300A79669 /* GuerreroJuegoTests */ = {
+			isa = PBXGroup;
+			children = (
+				9A3A46FD1AA5CDF300A79669 /* GuerreroJuegoTests.swift */,
+				9A3A46FB1AA5CDF300A79669 /* Supporting Files */,
+			);
+			path = GuerreroJuegoTests;
+			sourceTree = "<group>";
+		};
+		9A3A46FB1AA5CDF300A79669 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9A3A46FC1AA5CDF300A79669 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9A3A46DF1AA5CDF200A79669 /* GuerreroJuego */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A3A47011AA5CDF300A79669 /* Build configuration list for PBXNativeTarget "GuerreroJuego" */;
+			buildPhases = (
+				9A3A46DC1AA5CDF200A79669 /* Sources */,
+				9A3A46DD1AA5CDF200A79669 /* Frameworks */,
+				9A3A46DE1AA5CDF200A79669 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GuerreroJuego;
+			productName = GuerreroJuego;
+			productReference = 9A3A46E01AA5CDF200A79669 /* GuerreroJuego.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9A3A46F61AA5CDF300A79669 /* GuerreroJuegoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A3A47041AA5CDF300A79669 /* Build configuration list for PBXNativeTarget "GuerreroJuegoTests" */;
+			buildPhases = (
+				9A3A46F31AA5CDF300A79669 /* Sources */,
+				9A3A46F41AA5CDF300A79669 /* Frameworks */,
+				9A3A46F51AA5CDF300A79669 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9A3A46F91AA5CDF300A79669 /* PBXTargetDependency */,
+			);
+			name = GuerreroJuegoTests;
+			productName = GuerreroJuegoTests;
+			productReference = 9A3A46F71AA5CDF300A79669 /* GuerreroJuegoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9A3A46D81AA5CDF200A79669 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = Berganza;
+				TargetAttributes = {
+					9A3A46DF1AA5CDF200A79669 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					9A3A46F61AA5CDF300A79669 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 9A3A46DF1AA5CDF200A79669;
+					};
+				};
+			};
+			buildConfigurationList = 9A3A46DB1AA5CDF200A79669 /* Build configuration list for PBXProject "GuerreroJuego" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9A3A46D71AA5CDF200A79669;
+			productRefGroup = 9A3A46E11AA5CDF200A79669 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9A3A46DF1AA5CDF200A79669 /* GuerreroJuego */,
+				9A3A46F61AA5CDF300A79669 /* GuerreroJuegoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9A3A46DE1AA5CDF200A79669 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A3A46F21AA5CDF300A79669 /* LaunchScreen.xib in Resources */,
+				9A3A46EF1AA5CDF300A79669 /* Images.xcassets in Resources */,
+				9A3A46E81AA5CDF300A79669 /* art.scnassets in Resources */,
+				9A3A46ED1AA5CDF300A79669 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A3A46F51AA5CDF300A79669 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9A3A46DC1AA5CDF200A79669 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A3A46EA1AA5CDF300A79669 /* GameViewController.swift in Sources */,
+				9A3A46E61AA5CDF200A79669 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A3A46F31AA5CDF300A79669 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A3A46FE1AA5CDF300A79669 /* GuerreroJuegoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9A3A46F91AA5CDF300A79669 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9A3A46DF1AA5CDF200A79669 /* GuerreroJuego */;
+			targetProxy = 9A3A46F81AA5CDF300A79669 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9A3A46EB1AA5CDF300A79669 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9A3A46EC1AA5CDF300A79669 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9A3A46F01AA5CDF300A79669 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9A3A46F11AA5CDF300A79669 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9A3A46FF1AA5CDF300A79669 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9A3A47001AA5CDF300A79669 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9A3A47021AA5CDF300A79669 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GuerreroJuego/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9A3A47031AA5CDF300A79669 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GuerreroJuego/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9A3A47051AA5CDF300A79669 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GuerreroJuegoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GuerreroJuego.app/GuerreroJuego";
+			};
+			name = Debug;
+		};
+		9A3A47061AA5CDF300A79669 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GuerreroJuegoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GuerreroJuego.app/GuerreroJuego";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9A3A46DB1AA5CDF200A79669 /* Build configuration list for PBXProject "GuerreroJuego" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A3A46FF1AA5CDF300A79669 /* Debug */,
+				9A3A47001AA5CDF300A79669 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A3A47011AA5CDF300A79669 /* Build configuration list for PBXNativeTarget "GuerreroJuego" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A3A47021AA5CDF300A79669 /* Debug */,
+				9A3A47031AA5CDF300A79669 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A3A47041AA5CDF300A79669 /* Build configuration list for PBXNativeTarget "GuerreroJuegoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A3A47051AA5CDF300A79669 /* Debug */,
+				9A3A47061AA5CDF300A79669 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9A3A46D81AA5CDF200A79669 /* Project object */;
+}
